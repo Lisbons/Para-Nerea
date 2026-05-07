@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-import loveConfig from '@/loveConfig';
+import loveConfig from '../loveConfig';
 import styles from './ParallaxTimeline.module.css';
 
 interface PhotoItem {

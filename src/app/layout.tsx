@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import './globals.css'
+import loveConfig from '../loveConfig';
 
 export const metadata: Metadata = {
   title: "Unas pocas palabras💕",

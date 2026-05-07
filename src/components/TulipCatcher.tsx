@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from 'react';
 import InviteCard from './InviteCard';
 import styles from './TulipCatcher.module.css';
-import loveConfig from '../loveConfig';
 
 interface Tulip {
   id: number;
