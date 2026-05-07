@@ -63,8 +63,23 @@ export default function ParallaxTimeline() {
 
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2>Our Love Story</h2>
-          <p>Every moment, a chapter in our beautiful journey together</p>
+          <h2>Lo que siento por ti...</h2>
+          <p>Nerea eres mi mundo entero
+
+Me falta el aire cuando pienso en todo lo que me haces sentir. No es solo quererte, es que me tienes completamente loco de amor. Me vuelve loco verte feliz, porque cuando tú estás bien me siento muy feliz
+
+me gusta cuando te pones a cantar y a bailar. Podría quedarme horas solo escuchandote, viendo cómo disfrutas, porque esa energía tuya es la que me mantiene vivo.
+
+Nerea, tu sonrisa es mi debilidad. Es lo más bonito que tienen mis ojos para ver. Si por mí fuera, me pasaría la vida entera haciendo tonterías solo para escuchar tu risa y ver cómo se te ilumina la cara.
+
+Me encanta que tengas ese don para cocer y cocinar. Ver cómo te concentras en tus cosas, cómo creas algo con tus manos me demuestra la clase de mujer increíble y detallista que eres.
+
+
+Quiero que lo sepas hoy y que no se te olvide nunca, quiero que estés conmigo toda la vida. No quiero a nadie más, no busco nada más. Mi lugar es a tu lado, cuidándote, amándote y viendo cómo cumples cada uno de tus sueños como ser azafata o diseñadora.
+
+Eres la persona con la que quiero compartir cada comida que cocines, cada canción que cantes y cada paso que des. Mi amor por ti no tiene límites
+
+No te quiero para un rato, te quiero para siempre. Eres mi presente y quiero que seas todo mi futuro. Te amo con todo lo que soy, Nerea te amo.</p>
         </div>
 
         <div className={styles.timelineTrack}>

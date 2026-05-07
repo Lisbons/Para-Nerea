@@ -141,19 +141,19 @@ export default function TulipCatcher({ onComplete, gameCompleted }: TulipCatcher
     <section className={styles.gameSection}>
       <div className={styles.container}>
         <div className={styles.gameHeader}>
-          <h2>A Little Game for You 🌷</h2>
-          <p>Catch {TARGET_SCORE} falling tulips to reveal something special!</p>
+          <h2>Un pequeño juego 🌷</h2>
+          <p>Tiene que hacer click en las {TARGET_SCORE} flores y saldra algo especial!</p>
         </div>
 
         {!gameStarted ? (
           <div className={styles.startScreen}>
             <div className={styles.startCard}>
               <div className={styles.gameIcon}>🎮</div>
-              <h3>How to Play</h3>
+              <h3>Instrucciones p causa</h3>
               <ul className={styles.instructions}>
-                <li>🌷 Tap the falling tulips to catch them</li>
-                <li>🎯 Catch {TARGET_SCORE} tulips to win</li>
-                <li>⏱️ Don't let them fall off the screen!</li>
+                <li>🌷 Tap a las flores</li>
+                <li>🎯 Atrapa a los {TARGET_SCORE} tulipanes para ganar </li>
+                <li>⏱️ No dejes que se caigan!</li>
               </ul>
               <button className="btn-primary" onClick={startGame}>
                 Start Game
@@ -164,7 +164,7 @@ export default function TulipCatcher({ onComplete, gameCompleted }: TulipCatcher
           <>
             <div className={styles.scoreBoard}>
               <div className={styles.scoreBadge}>
-                <span className={styles.scoreLabel}>Score:</span>
+                <span className={styles.scoreLabel}>Puntuacion:</span>
                 <span className={styles.scoreValue}>{score} / {TARGET_SCORE}</span>
               </div>
               <div className={styles.progressBar}>
@@ -194,7 +194,7 @@ export default function TulipCatcher({ onComplete, gameCompleted }: TulipCatcher
               
               {tulips.length === 0 && (
                 <div className={styles.waitingMessage}>
-                  Get ready! Tulips are coming... 🌷
+                  Preparate estan por caer..🌷
                 </div>
               )}
             </div>

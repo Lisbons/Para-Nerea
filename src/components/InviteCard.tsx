@@ -17,7 +17,7 @@ export default function InviteCard({ onPlayAgain }: InviteCardProps) {
 
   const handleYesClick = () => {
     // Show celebration modal or directly trigger actions
-    alert('🎉 Yay! I knew you would say yes... I can\'t wait to celebrate with you!! 💕');
+    alert('🎉 Siiiii dijo que si, voy a llorar, te amo 💕');
   };
 
   const handleNoClick = () => {
@@ -150,25 +150,25 @@ END:VCALENDAR`;
         
         <div className={styles.inviteDetails}>
           <div className={styles.detailItem}>
-            <span className={styles.detailIcon}>📅</span>
+            <span className={styles.detailIcon}>👉👈</span>
             <div>
-              <div className={styles.detailLabel}>Date</div>
+              <div className={styles.detailLabel}>Quieres ser mi novia?</div>
               <div className={styles.detailValue}>{loveConfig.inviteDate}</div>
             </div>
           </div>
 
           <div className={styles.detailItem}>
-            <span className={styles.detailIcon}>🕐</span>
+            <span className={styles.detailIcon}>🙏</span>
             <div>
-              <div className={styles.detailLabel}>Time</div>
+              <div className={styles.detailLabel}>Porfavor</div>
               <div className={styles.detailValue}>{loveConfig.inviteTime}</div>
             </div>
           </div>
 
           <div className={styles.detailItem}>
-            <span className={styles.detailIcon}>📍</span>
+            <span className={styles.detailIcon}>🙏</span>
             <div>
-              <div className={styles.detailLabel}>Location</div>
+              <div className={styles.detailLabel}>Porfavor</div>
               <div className={styles.detailValue}>{loveConfig.inviteLocation}</div>
             </div>
           </div>
@@ -181,7 +181,7 @@ END:VCALENDAR`;
             className={`btn-primary ${styles.yesButton}`}
             onClick={handleYesClick}
           >
-            Yes! I'd Love To! 💕
+            Si, te amo💕!!
           </button>
 
           <button 
@@ -204,14 +204,14 @@ END:VCALENDAR`;
               className="btn-secondary"
               onClick={handleAddToCalendar}
             >
-              📅 Add to Calendar
+              Bua, estoy muy UwU 💌
             </button>
 
             <button 
               className="btn-secondary"
               onClick={handleSendAnswer}
             >
-              💌 Send My Answer
+              Enviar respuesta 💌
             </button>
           </div>
         </div>
@@ -221,7 +221,7 @@ END:VCALENDAR`;
             className={styles.playAgainButton}
             onClick={onPlayAgain}
           >
-            🎮 Play Game Again
+            🎮 Juegar de nuevo
           </button>
         </div>
       </div>

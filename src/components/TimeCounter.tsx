@@ -58,39 +58,39 @@ export default function TimeCounter() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.icon}>⏰</div>
-          <h2 className={styles.title}>Time We've Shared</h2>
+          <h2 className={styles.title}>Tiempo que quiero estar contigo</h2>
           <p className={styles.subtitle}>
-            Every second with you is a treasure
+            Cada segundo que estoy contigo, siento que el mundo desaparece y solo quedamos tu y yo.
           </p>
 
           <div className={styles.counterGrid}>
             <div className={styles.timeBox}>
               <div className={styles.timeValue}>{timeLeft.days}</div>
-              <div className={styles.timeLabel}>Days</div>
+              <div className={styles.timeLabel}>Dias ♾️</div>
               <div className={styles.timeIcon}>📅</div>
             </div>
 
             <div className={styles.timeBox}>
               <div className={styles.timeValue}>{timeLeft.hours}</div>
-              <div className={styles.timeLabel}>Hours</div>
+              <div className={styles.timeLabel}>Horas ♾️</div>
               <div className={styles.timeIcon}>🕐</div>
             </div>
 
             <div className={styles.timeBox}>
               <div className={styles.timeValue}>{timeLeft.minutes}</div>
-              <div className={styles.timeLabel}>Minutes</div>
+              <div className={styles.timeLabel}>Minutos ♾️</div>
               <div className={styles.timeIcon}>⏱️</div>
             </div>
 
             <div className={styles.timeBox}>
               <div className={styles.timeValue}>{timeLeft.seconds}</div>
-              <div className={styles.timeLabel}>Seconds</div>
+              <div className={styles.timeLabel}>Segundos ♾️</div>
               <div className={styles.timeIcon}>⚡</div>
             </div>
           </div>
 
           <p className={styles.message}>
-            ...and counting! Here's to infinity more moments together💕
+            y contando...
           </p>
         </div>
       </div>
