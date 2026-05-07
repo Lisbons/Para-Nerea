@@ -2,7 +2,7 @@
 
 import { useState, useRef } from 'react';
 import Image from 'next/image';
-import loveConfig from '@/config/loveConfig';
+import loveConfig from '@/loveConfig';
 import styles from './InviteCard.module.css';
 
 interface InviteCardProps {

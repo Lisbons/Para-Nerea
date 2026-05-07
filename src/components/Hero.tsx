@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import loveConfig from '@/config/loveConfig';
+import loveConfig from '@/loveConfig';
 import styles from './Hero.module.css';
 
 export default function Hero() {
