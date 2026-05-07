@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import loveConfig from '@/config/loveConfig';
 import styles from './Hero.module.css';
+import loveConfig from '../loveConfig';
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);

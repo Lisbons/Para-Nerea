@@ -5,6 +5,7 @@ import ParallaxTimeline from '@/components/ParallaxTimeline';
 import TimeCounter from '@/components/TimeCounter';
 import TulipCatcher from '@/components/TulipCatcher';
 import { useState } from 'react';
+import loveConfig from '../loveConfig';
 
 /**
  * Main landing page component
