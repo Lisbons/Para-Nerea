@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import loveConfig from '@/loveConfig';
+import loveConfig from '@/config/loveConfig';
 import styles from './TimeCounter.module.css';
 
 interface TimeLeft {
